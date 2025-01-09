@@ -1,0 +1,27 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Environnements virtuels
+env/
+.env
+
+# Django REST Framework
+*.sqlite3
+*.pyo
+*.pyd
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
