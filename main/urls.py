@@ -6,6 +6,9 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
 )
 
+from api.views import *
+
+router = DefaultRouter()
 
 
 urlpatterns = [
